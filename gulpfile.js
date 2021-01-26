@@ -40,7 +40,8 @@ let { src, dest } = require('gulp'),
         imagemin = require("gulp-imagemin"),
         webp = require("gulp-webp"),
         webphtml = require("gulp-webp-html"),
-        webpcss = require("gulp-webpcss");
+        webpcss = require("gulp-webpcss"),
+        webp_converter = require("webp-converter");
 
 
 function html() {
