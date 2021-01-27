@@ -12,7 +12,11 @@
 }
 
 .header {
-  background-color: #13287d;
+  background: url(../../img/mt-2029-bg01.jpg);
+}
+
+.header .header-background {
+  background-color: rgba(19, 40, 125, 0.67);
 }
 
 .header .header__box {
@@ -83,3 +87,21 @@
   padding-left: 3px;
   font-size: 11px;
 }
+
+.header .header-nav li .header-nav--submenu {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  margin-top: 10px;
+  padding: 5px 4px;
+  width: 150px;
+  height: 180px;
+  background-color: #fff;
+  display: none;
+}
+
+.header .header-nav li li {
+  padding: 3px 4px 4px 4px;
+}
+
+.webp .header{ background: url(../../img/mt-2029-bg01.webp); }

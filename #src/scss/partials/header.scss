@@ -1,6 +1,7 @@
 .header {
-    background-color: $c3;
-    .header__box{
+    background: url(../../img/mt-2029-bg01.jpg);;
+    .header-background{background-color: rgba(19,40,125,0.67)}   
+    .header__box {
         padding: 30px;
         display: flex;
         justify-content: space-between;
@@ -55,7 +56,20 @@
                         padding-left: 3px;
                         font-size: 11px;
                     }   
-                }              
+                }
+                .header-nav--submenu {
+                    font-size: 14px;
+                    font-family: $ff1;
+                    position: absolute;
+                    margin-top: 10px;
+                    padding: 5px 4px;
+                    width: 150px;
+                    height: 180px;
+                    background-color: #fff;
+                    display: none;
+                }li {
+                    padding: 3px 4px 4px 4px;
+                    }     
             }
         }
 }
