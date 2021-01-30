@@ -136,17 +136,20 @@
                     font-family: $ff2;
                 }
                 .form-input {
-                    margin-left: 75px;
+                    align-items: center;
                     margin-top: 5px;
-                    padding: 20px 21px;
                     font-weight: 500;
                     font-family: $ff1;
                     width: 336px;
                     height: 64px;
                     color: #494949;
+                    input {
+                        margin: 0 auto;
+                        width: 100%;
+                        padding: 21px 21px;
+                    }
                 }
                 textarea {
-                    margin-left: 75px;
                     margin-top: 5px;
                     padding: 20px 21px;
                     font-weight: 500;

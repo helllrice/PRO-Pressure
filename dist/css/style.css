@@ -173,9 +173,8 @@
 }
 
 .header .intro .intro-form .form-input {
-  margin-left: 75px;
+  align-items: center;
   margin-top: 5px;
-  padding: 20px 21px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
   width: 336px;
@@ -183,8 +182,13 @@
   color: #494949;
 }
 
+.header .intro .intro-form .form-input input {
+  margin: 0 auto;
+  width: 100%;
+  padding: 21px 21px;
+}
+
 .header .intro .intro-form textarea {
-  margin-left: 75px;
   margin-top: 5px;
   padding: 20px 21px;
   font-weight: 500;
