@@ -1,0 +1,70 @@
+.about {
+    .about__container {
+        .about__box {
+            padding-top: 120px;
+            .about-title {
+                font-family: $ff2;
+                font-size: 56px;
+                color: $c2;
+            }
+            .about-block {
+                display: flex;
+                justify-content: flex-start;
+                .about-text {
+                    padding-top: 50px;
+                    width: 555px;
+                    p {
+                        line-height: 1.5;
+                        font-size: 18px;
+                        color: #494d50;
+                        font-family: $ff1;
+                    }
+                }
+                .about-list {
+                    padding-top: 35px;
+                    height: 261px;
+                    margin-left: 60px;
+                    ul {
+                        li {
+                           padding: 5px;
+                           list-style: none;
+                           font-size: 21px;
+                           font-family: $ff2;
+                           font-weight: 400;
+                           color: #171e43;
+                           .fa-check-circle {
+                               color: $c1;
+                           }
+                        }
+                    }
+                } 
+            }
+            .about-video {
+                position: relative;
+                padding-top: 70px;
+                padding-bottom: 100px;
+                .about-img {
+                    
+                    display: flex;
+                    img {
+                        height: 480px;
+                    }
+                }
+                .about-link {
+                    position: absolute;
+                    top: 50%;
+                    left: 50px;
+                    font-size: 54px;
+                    color: #ffffff;
+                    font-family: $ff2;
+                    text-decoration: none;
+                    font-weight: 300;
+                    transition: .3s;
+                    &:hover {
+                        color: $c1;
+                    }
+                }
+            }
+        }
+    }
+}
