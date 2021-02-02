@@ -292,7 +292,7 @@
 
 .about .about__container .about__box .about-video .about-link {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50px;
   font-size: 54px;
   color: #ffffff;
@@ -304,6 +304,79 @@
 
 .about .about__container .about__box .about-video .about-link:hover {
   color: #05b4f5;
+}
+
+.service {
+  padding-top: 100px;
+  background-color: #eceff7;
+}
+
+.service .service__container .service-box .service-title {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 56px;
+  color: #171e43;
+}
+
+.service .service__container .service-box .service-img {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.service .service__container .service-box .service-block {
+  display: flex;
+  padding-top: 40px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.service .service__container .service-box .service-block .service-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  margin: 10px;
+  width: 365px;
+  height: 410px;
+  border: 1px solid #171e43;
+  transition: .4s;
+}
+
+.service .service__container .service-box .service-block .service-card:hover {
+  border: 1px solid #05b4f5;
+}
+
+.service .service__container .service-box .service-block .service-card h3 {
+  padding-top: 15px;
+  font-size: 34px;
+  font-family: "Oswald", sans-serif;
+  color: #171e43;
+}
+
+.service .service__container .service-box .service-block .service-card p {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  color: #494d50;
+}
+
+.service .service__container .service-box .service-block .service-card .fa-phone-alt {
+  padding-right: 5px;
+}
+
+.service .service__container .service-box .service-block .service-card a {
+  padding-top: 20px;
+  text-decoration: none;
+  color: #05b4f5;
+  font-family: "Montserrat", sans-serif;
+  transition: .3s;
+  font-weight: 500;
+}
+
+.service .service__container .service-box .service-block .service-card a:hover {
+  color: #171e43;
 }
 
 .webp .header{ background: url(../../img/mt-2029-bg01.webp); }

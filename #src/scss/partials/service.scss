@@ -1,0 +1,66 @@
+.service {
+    padding-top: 100px;
+    background-color: $c4;
+    .service__container {
+        .service-box {
+            .service-title {
+                text-align: center;
+                font-family: $ff2;
+                font-size: 56px;
+                color: $c2;
+            }
+            .service-img {
+                padding-top: 5px;
+                text-align: center;
+            }
+            .service-block {
+                display: flex;
+                padding-top: 40px;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .service-card {
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    background-color: #fff;
+                    margin: 10px;
+                    width: 365px;
+                    height: 410px;
+                    border: 1px solid $c2;
+                    transition: .4s;
+                    &:hover {
+                        border: 1px solid $c1;
+                    }
+                    h3 {
+                        padding-top: 15px;
+                        font-size: 34px;
+                        font-family: $ff2;
+                        color: $c2;
+                    }
+                    p {
+                        padding-top: 20px;
+                        text-align: center;
+                        font-size: 16px;
+                        font-family: $ff1;
+                        color: #494d50;
+                    }
+                    .fa-phone-alt {
+                        padding-right: 5px;
+                    }
+                    a {
+                        padding-top: 20px;
+                        text-decoration: none;
+                        color: $c1;
+                        font-family: $ff1;
+                        transition: .3s;
+                        font-weight: 500;
+                        &:hover {
+                            color: $c2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
