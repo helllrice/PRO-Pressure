@@ -307,7 +307,7 @@
 }
 
 .service {
-  padding-top: 100px;
+  padding: 100px 0 70px 0;
   background-color: #eceff7;
 }
 
@@ -377,6 +377,34 @@
 
 .service .service__container .service-box .service-block .service-card a:hover {
   color: #171e43;
+}
+
+.slider {
+  padding-top: 100px;
+}
+
+.slider .slider__container .slider-box .slider-title {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  font-size: 56px;
+  color: #171e43;
+}
+
+.slider .slider__container .slider-box .slider-img {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.slider .slider__container .slider-box p {
+  color: #171e43;
+  font-family: "Oswald", sans-serif;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.slider .slider__container .slider-box p span {
+  color: #05b4f5;
 }
 
 .webp .header{ background: url(../../img/mt-2029-bg01.webp); }

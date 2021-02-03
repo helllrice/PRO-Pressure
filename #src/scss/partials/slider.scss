@@ -1,0 +1,27 @@
+.slider {
+    padding-top: 100px;
+    .slider__container {
+        .slider-box {
+            .slider-title {
+                text-align: center;
+                font-family: $ff2;
+                font-size: 56px;
+                color: $c2;
+            }
+            .slider-img {
+                padding-top: 5px;
+                text-align: center;
+            }
+            p {
+                color: $c2;
+                font-family: $ff2;
+                padding-top: 40px;
+                text-align: center;
+                font-size: 30px;
+                span {
+                    color: $c1;
+                }
+            }
+        }
+    }
+}
