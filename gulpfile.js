@@ -7,7 +7,7 @@ let path = {
         html: project_folder + "/",
         css: project_folder + "/css/",
         js: project_folder + "/js/",
-        fonts: project_folder + "/fonts",
+        fonts: project_folder + "/fonts/",
         img: project_folder + "/img/",
     },
     src: {
@@ -20,7 +20,7 @@ let path = {
     watch: {
         html: source_folder + "/**/*.html",
         css: source_folder + "/scss/**/*.scss",
-        js: source_folder + "/js/script.js",
+        js: source_folder + "/js/**/*.js",
         img: source_folder + "/img/**/*.{jpg,png,svg,gif,ico,webp}",
     },
     clean: "./" + project_folder + "/"
@@ -80,8 +80,6 @@ function css() {
 
 function js() {
     return src(path.src.js)
-        .pipe(twig())
-        .pipe(dest(path.build.js))
         .pipe(uglify())
         .pipe(browsersync.stream())
         .pipe(
@@ -89,6 +87,7 @@ function js() {
                 extname: ".min.js"
             })
         )
+        .pipe(dest(path.build.js))
 }
 
 function images() {
