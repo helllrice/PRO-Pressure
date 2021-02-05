@@ -1,2 +1,2 @@
-const { slider } = require('./slider')
+import slider from './slider'
 

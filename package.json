@@ -30,8 +30,11 @@
     "gulp-uglify-es": "^2.0.0",
     "gulp-webp": "^4.0.1",
     "gulp-webp-html": "^1.0.2",
+    "gulp-webpack": "^1.5.0",
     "gulp-webpcss": "^1.1.1",
-    "webp-converter": "^2.2.3"
+    "webp-converter": "^2.2.3",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0"
   },
   "dependencies": {}
 }

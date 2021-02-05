@@ -1,14 +1,9 @@
+ console.log("hello")
  
- function SaySlider(){
-    $(document).ready(function(){
-        $(".slider-block").slick();
-    }
-}
+
+ export default slider;
 
 
-
-
-module.exports = { slider }
 
 
 
