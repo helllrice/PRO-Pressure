@@ -1,2 +1,3 @@
-import slider from './slider'
+
+import slick from "./slider"
 

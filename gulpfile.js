@@ -41,8 +41,15 @@ let { src, dest } = require('gulp'),
         webp = require("gulp-webp"),
         webphtml = require("gulp-webp-html"),
         webpcss = require("gulp-webpcss"),
-        webp_converter = require("webp-converter");
+        webp_converter = require("webp-converter"),
+        webpack = require("webpack-stream");
 
+
+let webConfig = {
+        output: {
+            filename: 'script.js'
+        }
+};
 
 function html() {
     return src(path.src.html)
@@ -80,13 +87,9 @@ function css() {
 
 function js() {
     return src(path.src.js)
+        .pipe(webpack(webConfig))
         .pipe(uglify())
         .pipe(browsersync.stream())
-        .pipe(
-            rename({
-                extname: ".min.js"
-            })
-        )
         .pipe(dest(path.build.js))
 }
 

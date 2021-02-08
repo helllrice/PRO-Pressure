@@ -22,6 +22,70 @@
                     color: $c1;
                 }
             }
+            .slider-block {
+                position: relative;
+                margin: 0 auto;
+                width: 1150px;
+                padding: 10px 0 50px 0;
+                align-items: center;
+                display: flex;
+                resize: none;
+                .slider-item {
+                    align-items: center;
+                    
+                    img {
+                        margin: 0 auto;
+                        width: 886px;
+                        height: 388px;
+                    }
+                }
+                .fa-chevron-left {
+                    padding-right: 50px;
+                    color: $c2;
+                    cursor: pointer;
+                    transition: .3s;
+                    &:hover {
+                        color: $c1;
+                    }
+                }
+                .fa-chevron-right {
+                    padding-left: 50px;
+                    color: $c2;
+                    cursor: pointer;
+                    transition: .3s;
+                    &:hover {
+                        color: $c1;
+                    }
+                }
+                .dots {
+                    position: absolute;
+                    top: 95%;
+                    left: 48%;
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 auto;
+                    list-style: none;
+                    text-align: center;
+                    padding-bottom: 30px;
+                    button {
+                        font-size: 24px;
+                        width: 24px;
+                        height: 24px;
+                        margin: 5px;
+                        resize: none;
+                        color: $c1;
+                        background-color: transparent;
+                        border-color: transparent;
+                        border-style: none;
+                        border: none;
+                        transition: 0.3s;
+                        cursor: pointer;
+                        &:hover {
+                            color: $c2;
+                        }
+                    }
+                }
+            }
         }
     }
 }
