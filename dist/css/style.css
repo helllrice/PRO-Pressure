@@ -380,7 +380,7 @@
 }
 
 .slider {
-  padding-top: 100px;
+  padding: 100px 0 70px 0;
 }
 
 .slider .slider__container .slider-box .slider-title {
@@ -428,7 +428,7 @@
 }
 
 .slider .slider__container .slider-box .slider-block .fa-chevron-left {
-  padding-right: 50px;
+  padding-right: 40px;
   color: #171e43;
   cursor: pointer;
   transition: .3s;
@@ -439,7 +439,7 @@
 }
 
 .slider .slider__container .slider-box .slider-block .fa-chevron-right {
-  padding-left: 50px;
+  padding-left: 40px;
   color: #171e43;
   cursor: pointer;
   transition: .3s;
@@ -458,7 +458,6 @@
   margin: 0 auto;
   list-style: none;
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .slider .slider__container .slider-box .slider-block .dots button {
@@ -472,7 +471,6 @@
   border-color: transparent;
   border-style: none;
   border: none;
-  transition: 0.3s;
   cursor: pointer;
 }
 
@@ -480,4 +478,51 @@
   color: #171e43;
 }
 
+.info-call .info-call__background {
+  background-image: url(../../img/background.jpg);
+}
+
+.info-call .info-call__background .info-call__container .info-call__box {
+  padding: 70px 0 70px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-call .info-call__background .info-call__container .info-call__box .info-item h2 {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
+
+.info-call .info-call__background .info-call__container .info-call__box .info-item p {
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.info-call .info-call__background .info-call__container .info-call__box .call-item {
+  padding-top: 50px;
+}
+
+.info-call .info-call__background .info-call__container .info-call__box .call-item button {
+  min-width: 180px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  background-color: #05b4f5;
+  border: none;
+  padding: 18px 12px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.info-call .info-call__background .info-call__container .info-call__box .call-item button:hover {
+  background-color: #171e43;
+}
+
 .webp .header{ background: url(../../img/mt-2029-bg01.webp); }
+
+.webp .info-call .info-call__background{ background-image: url(../../img/background.webp); }
