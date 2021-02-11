@@ -8,6 +8,12 @@ const slick =
             dots: true,
             dotsClass: 'dots',
         })
+        $('.spec-slider').slick({
+            arrow: false,
+            prevArrow: '<i class="fas fa-chevron-left"></i>',
+            nextArrow: '<i class="fas fa-chevron-right"></i>',
+            autoplay: true,
+        })
     });
 
 export default slick;

@@ -523,6 +523,115 @@
   background-color: #171e43;
 }
 
+.specialist {
+  padding-top: 100px;
+}
+
+.specialist .specialist__container .specialist__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.specialist .specialist__container .specialist__box .spec-item h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 56px;
+  color: #171e43;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 540px;
+  background-color: #F2F2F2;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-block .spec-info {
+  padding-top: 50px;
+  padding-right: 100px;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-block .spec-info h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-block .spec-info p {
+  font-family: "Montserrat", sans-serif;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-block .spec-info a {
+  display: block;
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: #05b4f5;
+  text-decoration: none;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-block .spec-info a:hover {
+  color: #171e43;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-block .spec-info .spec-icon {
+  padding-top: 40px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-block .spec-info .spec-icon i {
+  cursor: pointer;
+  transition: .3s;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-block .spec-info .spec-icon i:hover {
+  color: #05b4f5;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-slider {
+  position: relative;
+  padding-top: 20px;
+  width: 540px;
+  display: flex;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-slider .fa-chevron-left {
+  top: 50%;
+  left: 10%;
+  z-index: 1000;
+  position: absolute;
+  color: #13287d;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-slider .fa-chevron-left:hover {
+  color: #05b4f5;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-slider .fa-chevron-right {
+  top: 50%;
+  right: 10%;
+  z-index: 1000;
+  position: absolute;
+  color: #13287d;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-slider .fa-chevron-right:hover {
+  color: #05b4f5;
+}
+
+.specialist .specialist__container .specialist__box .spec-item .spec-slider .slider-item {
+  height: 433px;
+}
+
 .webp .header{ background: url(../../img/mt-2029-bg01.webp); }
 
 .webp .info-call .info-call__background{ background-image: url(../../img/background.webp); }

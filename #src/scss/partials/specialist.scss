@@ -1,0 +1,96 @@
+.specialist {
+    padding-top: 100px;
+    .specialist__container {
+        .specialist__box {
+            display: flex;
+            justify-content: space-between;
+            .spec-item {
+                h2 {
+                    font-family: $ff2;
+                    font-size: 56px;
+                    color: $c2;
+                }
+                .spec-block {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 20px;
+                    width: 540px;
+                    background-color: #F2F2F2;
+                    .spec-info {
+                        padding-top: 50px;
+                        padding-right: 100px;
+                        
+                        h2 {
+                            font-family: $ff2;
+                            font-size: 24px;
+                        }
+                        p {
+                            font-family: $ff1;
+                            border-bottom: 1px solid black;
+                            padding-bottom: 20px;
+                        }
+                        a {
+                            display: block;
+                            padding-top: 20px;
+                            font-size: 18px;
+                            font-family: $ff1;
+                            color: $c1;
+                            text-decoration: none;
+                            font-weight: 700;
+                            transition: .3s;
+                            &:hover {
+                                color: $c2;
+                            }
+                        }
+                        .spec-icon {
+                            padding-top: 40px;
+                            width: 100px;
+                            display: flex;
+                            justify-content: space-between;
+                            i {
+                                cursor: pointer;
+                                transition: .3s;
+                                &:hover {
+                                    color: $c1;
+                                }
+                            }
+                        }
+                    }
+                }
+                .spec-slider {
+                    position: relative;
+                    padding-top: 20px;
+                    width: 540px;
+                    display: flex;
+                    .fa-chevron-left {
+                        top: 50%;
+                        left: 10%;
+                        z-index: 1000;
+                        position: absolute;
+                        color: $c3;
+                        cursor: pointer;
+                        transition: .3s;
+                        &:hover {
+                            color: $c1;
+                        }
+                    }
+                    .fa-chevron-right {
+                        top: 50%;
+                        right: 10%;
+                        z-index: 1000;
+                        position: absolute;
+                        color: $c3;
+                        cursor: pointer;
+                        transition: .3s;
+                        &:hover {
+                            color: $c1;
+                        }
+                    }
+                    .slider-item {
+                        height: 433px;
+                    }
+                }
+            }
+        }
+    }
+}
