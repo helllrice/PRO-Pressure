@@ -1,0 +1,11 @@
+.gallery {
+    padding-top: 100px;
+    .gallery__container {
+        .gallery__box {
+            display: flex;
+        }
+        .gallery__item {
+            display: flex;
+        }
+    }
+}

@@ -756,6 +756,18 @@
   background-color: #05b4f5;
 }
 
+.gallery {
+  padding-top: 100px;
+}
+
+.gallery .gallery__container .gallery__box {
+  display: flex;
+}
+
+.gallery .gallery__container .gallery__item {
+  display: flex;
+}
+
 .webp .header{ background: url(../../img/mt-2029-bg01.webp); }
 
 .webp .info-call .info-call__background{ background-image: url(../../img/background.webp); }
