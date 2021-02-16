@@ -2,10 +2,15 @@
     padding-top: 100px;
     .gallery__container {
         .gallery__box {
-            display: flex;
+            column-gap: 20px;
+            column-count: 3;
         }
         .gallery__item {
-            display: flex;
+            padding: 0 10px 10px 10px;
+            img {
+                display: block;
+                object-fit: cover;
+            }
         }
     }
 }

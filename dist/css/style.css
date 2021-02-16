@@ -761,11 +761,20 @@
 }
 
 .gallery .gallery__container .gallery__box {
-  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  -moz-column-count: 3;
+       column-count: 3;
 }
 
 .gallery .gallery__container .gallery__item {
-  display: flex;
+  padding: 0 10px 10px 10px;
+}
+
+.gallery .gallery__container .gallery__item img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .webp .header{ background: url(../../img/mt-2029-bg01.webp); }
